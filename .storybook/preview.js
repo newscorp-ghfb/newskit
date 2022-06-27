@@ -13,6 +13,8 @@ const unlimitedScenarios = [
   'grid',
   'stack',
   'card',
+  'the-sun',
+  'the-sun-all',
   'drawer',
   'modal',
   'image',
