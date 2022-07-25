@@ -2,6 +2,7 @@ import {
   getResponsiveSize,
   getResponsiveSpace,
   getStylePreset,
+  getTransitionPreset,
   getTypographyPreset,
   styled,
 } from '../utils';
@@ -32,6 +33,7 @@ export const StyledAccordionButton = styled.button<
     })};
   ${getTypographyPreset('accordion.header', 'header')}
   ${logicalProps('accordion.header', 'header')}
+  ${getTransitionPreset('accordion.header', 'header')}
 `;
 
 export const StyledHeader = styled.div`
@@ -48,10 +50,18 @@ export const StyledIconWrapper = styled.div`
   align-self: center;
 `;
 
+export const StyledPanelTransitionContainer = styled.div<
+  Pick<AccordionProps, 'overrides' | 'expanded'>
+>`
+  // unset max-height here to prevent animation if open on first render
+  max-height: ${({expanded}) => (expanded ? 'unset' : '0px')};
+  overflow: hidden;
+  ${getTransitionPreset('accordion.panel', 'panel', 'nk-accordion')}
+`;
+
 export const StyledPanel = styled.div<
   Pick<AccordionProps, 'overrides' | 'expanded'>
 >`
-  display: ${({expanded}) => (expanded ? 'block' : 'none')};
   ${getStylePreset('accordion.panel', 'panel')};
   ${logicalProps('accordion.panel', 'panel')}
 `;

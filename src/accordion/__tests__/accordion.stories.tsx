@@ -227,6 +227,9 @@ export const StoryAccordion = () => {
   );
 };
 StoryAccordion.storyName = 'accordion';
+StoryAccordion.parameters = {
+  eyes: {layoutBreakpoints: true},
+};
 
 export const StoryAccordionOverrides = () => (
   <>
@@ -362,6 +365,9 @@ export const StoryAccordionOverrides = () => (
 );
 
 StoryAccordionOverrides.storyName = 'accordion-with-overrides';
+StoryAccordionOverrides.parameters = {
+  eyes: {layoutBreakpoints: true},
+};
 
 export const StoryAccordionGroupUnControlled = () => (
   <>
@@ -387,6 +393,9 @@ export const StoryAccordionGroupUnControlled = () => (
   </>
 );
 StoryAccordionGroupUnControlled.storyName = 'accordion-group-uncontrolled';
+StoryAccordionGroupUnControlled.parameters = {
+  eyes: {layoutBreakpoints: true},
+};
 
 export const StoryAccordionGroupControlled = () => {
   const [expanded1, setExpanded1] = React.useState([1]);
@@ -411,6 +420,9 @@ export const StoryAccordionGroupControlled = () => {
   );
 };
 StoryAccordionGroupControlled.storyName = 'accordion-group-controlled';
+StoryAccordionGroupControlled.parameters = {
+  eyes: {layoutBreakpoints: true},
+};
 
 export const StoryAccordionOutlineOverrides = () => (
   <>
@@ -503,6 +515,91 @@ export const StoryAccordionOutlineOverrides = () => (
 );
 
 StoryAccordionOutlineOverrides.storyName = 'accordion-with-outline-overrides';
+StoryAccordionOutlineOverrides.parameters = {
+  eyes: {layoutBreakpoints: true},
+};
+
+export const StoryAccordionGroupTransitionOverrides = () => {
+  const noTransitions = {
+    header: {
+      transitionPreset: [],
+    },
+    panel: {
+      transitionPreset: [],
+    },
+  };
+
+  const slowTransitions = {
+    header: {
+      transitionPreset: {
+        extend: 'backgroundColorChange',
+        base: {
+          transitionDuration: '1000ms',
+        },
+      },
+    },
+    panel: {
+      transitionPreset: [
+        {
+          extend: 'maxHeightChange',
+          base: {
+            transitionProperty: 'max-height',
+          },
+          enterActive: {
+            transitionDuration: '2000ms',
+          },
+          exitActive: {
+            transitionDuration: '2000ms',
+          },
+        },
+        {
+          extend: 'slideLeft',
+          enterActive: {
+            transitionDuration: '2000ms',
+          },
+          exitActive: {
+            transitionDuration: '2000ms',
+          },
+        },
+      ],
+    },
+  };
+
+  return (
+    <>
+      <StorybookHeading>Accordion Group Transition Overrides</StorybookHeading>
+      <StorybookSubHeading>No transitions</StorybookSubHeading>
+      <AccordionGroup>
+        <Accordion header="Header 64" overrides={noTransitions}>
+          {content}
+        </Accordion>
+        <Accordion header="Header 65" overrides={noTransitions}>
+          {content}
+        </Accordion>
+        <Accordion header="Header 66" overrides={noTransitions}>
+          {content}
+        </Accordion>
+      </AccordionGroup>
+      <StorybookSubHeading>Multiple slow transitions</StorybookSubHeading>
+      <AccordionGroup>
+        <Accordion header="Header 67" overrides={slowTransitions}>
+          {content}
+        </Accordion>
+        <Accordion header="Header 68" overrides={slowTransitions}>
+          {content}
+        </Accordion>
+        <Accordion header="Header 69" overrides={slowTransitions}>
+          {content}
+        </Accordion>
+      </AccordionGroup>
+    </>
+  );
+};
+StoryAccordionGroupTransitionOverrides.storyName =
+  'accordion-group-transition-overrides';
+StoryAccordionGroupTransitionOverrides.parameters = {
+  eyes: {include: false},
+};
 
 export default {
   title: 'NewsKit Light/accordion',
