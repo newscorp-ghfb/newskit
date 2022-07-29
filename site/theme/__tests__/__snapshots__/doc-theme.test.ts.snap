@@ -2044,6 +2044,28 @@ Object {
         "transform": "translateY(-100%)",
       },
     },
+    "widthChange": Object {
+      "base": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+        "transitionTimingFunction": "{{motions.motionTimingEaseOut}}",
+      },
+      "enter": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+      },
+      "enterActive": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+      },
+      "enterDone": Object {},
+      "exit": Object {},
+      "exitActive": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+      },
+      "exitDone": Object {},
+    },
   },
   "typographyPresets": Object {
     "editorialCaption010": Object {
@@ -4451,6 +4473,28 @@ Object {
       "exitDone": Object {
         "transform": "translateY(-100%)",
       },
+    },
+    "widthChange": Object {
+      "base": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+        "transitionTimingFunction": "{{motions.motionTimingEaseOut}}",
+      },
+      "enter": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+      },
+      "enterActive": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+      },
+      "enterDone": Object {},
+      "exit": Object {},
+      "exitActive": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+      },
+      "exitDone": Object {},
     },
   },
   "typographyPresets": Object {
@@ -6863,6 +6907,28 @@ Object {
         "transform": "translateY(-100%)",
       },
     },
+    "widthChange": Object {
+      "base": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+        "transitionTimingFunction": "{{motions.motionTimingEaseOut}}",
+      },
+      "enter": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+      },
+      "enterActive": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+      },
+      "enterDone": Object {},
+      "exit": Object {},
+      "exitActive": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+      },
+      "exitDone": Object {},
+    },
   },
   "typographyPresets": Object {
     "editorialCaption010": Object {
@@ -9270,6 +9336,28 @@ Object {
       "exitDone": Object {
         "transform": "translateY(-100%)",
       },
+    },
+    "widthChange": Object {
+      "base": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+        "transitionTimingFunction": "{{motions.motionTimingEaseOut}}",
+      },
+      "enter": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+      },
+      "enterActive": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+      },
+      "enterDone": Object {},
+      "exit": Object {},
+      "exitActive": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+      },
+      "exitDone": Object {},
     },
   },
   "typographyPresets": Object {
@@ -11682,6 +11770,28 @@ Object {
         "transform": "translateY(-100%)",
       },
     },
+    "widthChange": Object {
+      "base": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+        "transitionTimingFunction": "{{motions.motionTimingEaseOut}}",
+      },
+      "enter": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+      },
+      "enterActive": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+      },
+      "enterDone": Object {},
+      "exit": Object {},
+      "exitActive": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+      },
+      "exitDone": Object {},
+    },
   },
   "typographyPresets": Object {
     "editorialCaption010": Object {
@@ -14089,6 +14199,28 @@ Object {
       "exitDone": Object {
         "transform": "translateY(-100%)",
       },
+    },
+    "widthChange": Object {
+      "base": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+        "transitionTimingFunction": "{{motions.motionTimingEaseOut}}",
+      },
+      "enter": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+      },
+      "enterActive": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+      },
+      "enterDone": Object {},
+      "exit": Object {},
+      "exitActive": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+      },
+      "exitDone": Object {},
     },
   },
   "typographyPresets": Object {
@@ -16501,6 +16633,28 @@ Object {
         "transform": "translateY(-100%)",
       },
     },
+    "widthChange": Object {
+      "base": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+        "transitionTimingFunction": "{{motions.motionTimingEaseOut}}",
+      },
+      "enter": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+      },
+      "enterActive": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+      },
+      "enterDone": Object {},
+      "exit": Object {},
+      "exitActive": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+      },
+      "exitDone": Object {},
+    },
   },
   "typographyPresets": Object {
     "editorialCaption010": Object {
@@ -18908,6 +19062,28 @@ Object {
       "exitDone": Object {
         "transform": "translateY(-100%)",
       },
+    },
+    "widthChange": Object {
+      "base": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+        "transitionTimingFunction": "{{motions.motionTimingEaseOut}}",
+      },
+      "enter": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+      },
+      "enterActive": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+      },
+      "enterDone": Object {},
+      "exit": Object {},
+      "exitActive": Object {
+        "transitionDuration": "{{motions.motionDuration020}}",
+        "transitionProperty": "width",
+      },
+      "exitDone": Object {},
     },
   },
   "typographyPresets": Object {
