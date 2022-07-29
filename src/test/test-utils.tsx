@@ -15,9 +15,10 @@ export const renderToFragment = (
   options?: RenderOptions,
 ) => renderer(ui, options).asFragment();
 
-export const renderWithImplementation = <T extends {}>(
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export const renderWithImplementation: any = <T extends {}>(
   Component: React.ComponentType<T>,
-  props?: T & {children?: React.ReactNode},
+  props?: T,
   fireEvent: (event: InstrumentationEvent) => void = () => {},
   options?: Omit<RenderOptions, 'wrapper'>,
 ) =>
@@ -30,11 +31,12 @@ export const renderWithImplementation = <T extends {}>(
     ),
   });
 
-export const renderWithThemeFactory = (
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export const renderWithThemeFactory: any = (
   defaultTheme: ThemeProviderProps['theme'],
 ) => <T extends {}>(
   Component: React.ComponentType<T>,
-  props?: T & {children?: React.ReactNode},
+  props?: T,
   theme: ThemeProviderProps['theme'] = defaultTheme,
   options?: Omit<RenderOptions, 'wrapper'>,
 ) =>
@@ -51,7 +53,7 @@ export const renderToFragmentWithThemeFactory = (
   defaultTheme: ThemeProviderProps['theme'],
 ) => <T extends {}>(
   Component: React.ComponentType<T>,
-  props?: T & {children?: React.ReactNode},
+  props?: T,
   theme: ThemeProviderProps['theme'] = defaultTheme,
   options?: RenderOptions,
 ) =>
@@ -66,8 +68,7 @@ export const renderToFragmentWithTheme = renderToFragmentWithThemeFactory(
   newskitLightTheme,
 );
 
-export {render} from '@testing-library/react';
-export {renderHook} from '@testing-library/react-hooks';
+export {render, renderHook} from '@testing-library/react';
 
 export const renderWithThemeInBody = <T extends {}>(
   Component: React.ComponentType<T>,

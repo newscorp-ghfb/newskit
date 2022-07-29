@@ -62,7 +62,7 @@ export const GridLayout = React.forwardRef<HTMLDivElement, GridLayoutProps>(
         {...props}
         areas={validCSSAreas as MQ<string>}
       >
-        {isFunctionWithAreas ? children(Areas) : children}
+        <>{isFunctionWithAreas ? children(Areas) : children}</>
       </StyledGridLayout>
     );
   },

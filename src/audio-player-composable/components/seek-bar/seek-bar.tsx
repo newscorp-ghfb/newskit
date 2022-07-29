@@ -34,7 +34,16 @@ const ThemelessSeekBar = React.forwardRef<
   const [srOnlyForwardRewind] = useReactKeys(1);
 
   const renderTrack: SliderProps['renderTrack'] = useCallback(
-    ({props: trackProps, children: trackChildren, isDragged}) => {
+    ({
+      props: trackProps,
+      children: trackChildren,
+      isDragged,
+    }: {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      props: any; // react-range does not export IRenderTrackParams
+      children: React.ReactNode;
+      isDragged: boolean;
+    }) => {
       const sliderTrackStylePreset = getToken(
         {theme, overrides},
         'audioPlayerSeekBar.slider.track',

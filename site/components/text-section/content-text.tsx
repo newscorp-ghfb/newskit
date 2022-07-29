@@ -1,6 +1,10 @@
 import React from 'react';
-import {Block, TextBlock} from 'newskit';
+import {Block, TextBlock, styled} from 'newskit';
 import {ContentTextProps} from './types';
+
+const StyledTextBlock = styled(TextBlock)`
+  display: block;
+`;
 
 export const ContentText: React.FC<ContentTextProps> = ({
   title,
@@ -29,15 +33,16 @@ export const ContentText: React.FC<ContentTextProps> = ({
     )}
     {children && (
       <Block spaceStack="space070">
-        <TextBlock
+        <StyledTextBlock
           stylePreset="inkBase"
           typographyPreset={{
             xs: 'editorialParagraph020',
             xl: 'editorialParagraph030',
           }}
+          as="span"
         >
           {children}
-        </TextBlock>
+        </StyledTextBlock>
       </Block>
     )}
   </>

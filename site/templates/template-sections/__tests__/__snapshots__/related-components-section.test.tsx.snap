@@ -124,6 +124,8 @@ exports[`RelatedComponentsSection renders a RelatedComp with its data coming fro
   font-weight: 500;
   letter-spacing: 0;
   padding: 0.5px 0px;
+  display: inline-block;
+  display: block;
 }
 
 .emotion-7 svg {
@@ -271,6 +273,8 @@ exports[`RelatedComponentsSection renders a RelatedComp with its data coming fro
   font-weight: 400;
   letter-spacing: 0;
   padding: 0.5px 0px;
+  display: inline-block;
+  display: block;
 }
 
 .emotion-17 svg {
@@ -344,11 +348,11 @@ exports[`RelatedComponentsSection renders a RelatedComp with its data coming fro
           <div
             class="emotion-6"
           >
-            <p
+            <span
               class="emotion-7"
             >
               introduction
-            </p>
+            </span>
           </div>
         </div>
         <div
@@ -425,11 +429,11 @@ exports[`RelatedComponentsSection renders a RelatedComp with its data coming fro
                           </section>
                         </a>
                       </div>
-                      <p
+                      <span
                         class="emotion-17"
                       >
                         Here lies the description for the related component
-                      </p>
+                      </span>
                     </div>
                   </div>
                 </div>

@@ -807,7 +807,7 @@ export const StoryMenuGroupsVertical = () => (
       </MenuGroup>
 
       <MenuGroup
-        title={() => <MenuGroupTitle />}
+        title={((() => <MenuGroupTitle />) as unknown) as React.ReactNode}
         aria-labelledby="custom-menu-title"
       >
         <MenuItem href={href}>Group 3-item 1</MenuItem>

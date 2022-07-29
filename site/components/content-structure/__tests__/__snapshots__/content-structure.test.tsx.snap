@@ -90,6 +90,8 @@ exports[`Content Primary renders with description and children 1`] = `
 .emotion-2 {
   margin: 0;
   color: #2E2E2E;
+  display: inline-block;
+  display: block;
 }
 
 .emotion-2 svg {
@@ -258,11 +260,11 @@ exports[`Content Primary renders with description and children 1`] = `
     <div
       class="emotion-1"
     >
-      <p
+      <span
         class="emotion-2"
       >
         Content Primary description
-      </p>
+      </span>
       <div
         class="emotion-3"
       />
@@ -307,6 +309,8 @@ exports[`Content Primary renders with description only 1`] = `
 .emotion-2 {
   margin: 0;
   color: #2E2E2E;
+  display: inline-block;
+  display: block;
 }
 
 .emotion-2 svg {
@@ -439,11 +443,11 @@ exports[`Content Primary renders with description only 1`] = `
     <div
       class="emotion-1"
     >
-      <p
+      <span
         class="emotion-2"
       >
         Content Primary description
-      </p>
+      </span>
     </div>
     <div
       class="emotion-3"
@@ -822,6 +826,8 @@ exports[`Content Primary renders with headline and description 1`] = `
 .emotion-5 {
   margin: 0;
   color: #2E2E2E;
+  display: inline-block;
+  display: block;
 }
 
 .emotion-5 svg {
@@ -968,11 +974,11 @@ exports[`Content Primary renders with headline and description 1`] = `
     <div
       class="emotion-1"
     >
-      <p
+      <span
         class="emotion-5"
       >
         Content Primary description
-      </p>
+      </span>
     </div>
     <div
       class="emotion-6"
@@ -1305,6 +1311,8 @@ exports[`Content Primary renders with headline, description and content 1`] = `
 .emotion-5 {
   margin: 0;
   color: #2E2E2E;
+  display: inline-block;
+  display: block;
 }
 
 .emotion-5 svg {
@@ -1487,11 +1495,11 @@ exports[`Content Primary renders with headline, description and content 1`] = `
     <div
       class="emotion-1"
     >
-      <p
+      <span
         class="emotion-5"
       >
         Content Primary description
-      </p>
+      </span>
       <div
         class="emotion-6"
       />
@@ -1604,6 +1612,8 @@ exports[`Content Secondary renders with description and children 1`] = `
 .emotion-2 {
   margin: 0;
   color: #2E2E2E;
+  display: inline-block;
+  display: block;
 }
 
 .emotion-2 svg {
@@ -1772,11 +1782,11 @@ exports[`Content Secondary renders with description and children 1`] = `
     <div
       class="emotion-1"
     >
-      <p
+      <span
         class="emotion-2"
       >
         Content Secondary description
-      </p>
+      </span>
       <div
         class="emotion-3"
       />
@@ -1821,6 +1831,8 @@ exports[`Content Secondary renders with description only 1`] = `
 .emotion-2 {
   margin: 0;
   color: #2E2E2E;
+  display: inline-block;
+  display: block;
 }
 
 .emotion-2 svg {
@@ -1953,11 +1965,11 @@ exports[`Content Secondary renders with description only 1`] = `
     <div
       class="emotion-1"
     >
-      <p
+      <span
         class="emotion-2"
       >
         Content Secondary description
-      </p>
+      </span>
     </div>
     <div
       class="emotion-3"
@@ -2334,6 +2346,8 @@ exports[`Content Secondary renders with headline and description 1`] = `
 .emotion-5 {
   margin: 0;
   color: #2E2E2E;
+  display: inline-block;
+  display: block;
 }
 
 .emotion-5 svg {
@@ -2478,11 +2492,11 @@ exports[`Content Secondary renders with headline and description 1`] = `
     <div
       class="emotion-1"
     >
-      <p
+      <span
         class="emotion-5"
       >
         Content Secondary description
-      </p>
+      </span>
     </div>
     <div
       class="emotion-6"
@@ -2813,6 +2827,8 @@ exports[`Content Secondary renders with headline, description and content 1`] = 
 .emotion-5 {
   margin: 0;
   color: #2E2E2E;
+  display: inline-block;
+  display: block;
 }
 
 .emotion-5 svg {
@@ -2993,11 +3009,11 @@ exports[`Content Secondary renders with headline, description and content 1`] = 
     <div
       class="emotion-1"
     >
-      <p
+      <span
         class="emotion-5"
       >
         Content Secondary description
-      </p>
+      </span>
       <div
         class="emotion-6"
       />
@@ -3130,6 +3146,8 @@ exports[`Content Tertiary renders with description and children 1`] = `
 .emotion-2 {
   margin: 0;
   color: #2E2E2E;
+  display: inline-block;
+  display: block;
 }
 
 .emotion-2 svg {
@@ -3298,11 +3316,11 @@ exports[`Content Tertiary renders with description and children 1`] = `
     <div
       class="emotion-1"
     >
-      <p
+      <span
         class="emotion-2"
       >
         Content Tertiary description
-      </p>
+      </span>
       <div
         class="emotion-3"
       />
@@ -3347,6 +3365,8 @@ exports[`Content Tertiary renders with description only 1`] = `
 .emotion-2 {
   margin: 0;
   color: #2E2E2E;
+  display: inline-block;
+  display: block;
 }
 
 .emotion-2 svg {
@@ -3479,11 +3499,11 @@ exports[`Content Tertiary renders with description only 1`] = `
     <div
       class="emotion-1"
     >
-      <p
+      <span
         class="emotion-2"
       >
         Content Tertiary description
-      </p>
+      </span>
     </div>
     <div
       class="emotion-3"
@@ -3860,6 +3880,8 @@ exports[`Content Tertiary renders with headline and description 1`] = `
 .emotion-5 {
   margin: 0;
   color: #2E2E2E;
+  display: inline-block;
+  display: block;
 }
 
 .emotion-5 svg {
@@ -4004,11 +4026,11 @@ exports[`Content Tertiary renders with headline and description 1`] = `
     <div
       class="emotion-1"
     >
-      <p
+      <span
         class="emotion-5"
       >
         Content Tertiary description
-      </p>
+      </span>
     </div>
     <div
       class="emotion-6"
@@ -4339,6 +4361,8 @@ exports[`Content Tertiary renders with headline, description and content 1`] = `
 .emotion-5 {
   margin: 0;
   color: #2E2E2E;
+  display: inline-block;
+  display: block;
 }
 
 .emotion-5 svg {
@@ -4519,11 +4543,11 @@ exports[`Content Tertiary renders with headline, description and content 1`] = `
     <div
       class="emotion-1"
     >
-      <p
+      <span
         class="emotion-5"
       >
         Content Tertiary description
-      </p>
+      </span>
       <div
         class="emotion-6"
       />

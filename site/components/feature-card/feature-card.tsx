@@ -5,7 +5,6 @@ import {
   StackDistribution,
   Stack,
   Headline,
-  TextBlock,
   Button,
   ButtonSize,
   useTheme,
@@ -24,6 +23,7 @@ import {
   StyledFeatureCardHorizontalMedia,
   StyledFeatureCardVerticalMedia,
   StyledCardLink,
+  StyledTextBlock,
 } from './styled';
 import {LineTruncation} from '../line-truncation';
 import {Link} from '../link';
@@ -139,12 +139,13 @@ const FeatureCardHorizontal = React.forwardRef<
             )}
             {description && (
               <Block spaceStack={{xs: 'space050', lg: 'space060'}}>
-                <TextBlock
+                <StyledTextBlock
                   stylePreset="inkWhiteSubtle"
                   typographyPreset={descriptionTypographyPreset}
+                  as="span"
                 >
                   {description}
-                </TextBlock>
+                </StyledTextBlock>
               </Block>
             )}
             {buttonLabel && (
@@ -201,12 +202,13 @@ const FeatureCardHorizontal = React.forwardRef<
               )}
               {description && (
                 <Block spaceStack={{xs: 'space050', lg: 'space060'}}>
-                  <TextBlock
+                  <StyledTextBlock
                     stylePreset="inkWhiteSubtle"
                     typographyPreset={descriptionTypographyPreset}
+                    as="span"
                   >
                     <LineTruncation lines="2">{description}</LineTruncation>
-                  </TextBlock>
+                  </StyledTextBlock>
                 </Block>
               )}
               {buttonLabel && (
@@ -299,12 +301,13 @@ const FeatureCardVertical = React.forwardRef<HTMLDivElement, FeatureCardProps>(
           )}
           {description && (
             <Block spaceStack={{xs: 'space050', lg: 'space060'}}>
-              <TextBlock
+              <StyledTextBlock
                 stylePreset="inkWhiteSubtle"
                 typographyPreset={descriptionTypographyPreset}
+                as="span"
               >
                 {description}
-              </TextBlock>
+              </StyledTextBlock>
             </Block>
           )}
           {buttonLabel && (

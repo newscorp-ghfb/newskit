@@ -41,4 +41,4 @@ export type GridLayoutProps = {
     minHeight?: MQ<string>;
     maxHeight?: MQ<string>;
   } & LogicalProps;
-} & React.HTMLAttributes<HTMLDivElement>;
+} & Omit<React.HTMLAttributes<HTMLDivElement>, 'children'>;
